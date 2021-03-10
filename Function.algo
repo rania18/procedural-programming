@@ -1,6 +1,6 @@
 FUNCTION dot_product(v1, v2 : ARRAY_OF FLOAT[2]) : FLOAT ;
 VAR
-    PS: FLOAT := 0;
+    PS: FLOAT;
     i,j : INTEGER;
 BEGIN
     read (V1);

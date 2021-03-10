@@ -1,7 +1,7 @@
 PROCEDURE dot_product (v1,v2 : ARRAY_OF FLOAT[2])
 VAR
     i,j: INTEGER;
-    PS : FLOAT:=0;
+    PS : FLOAT;
 BEGIN
     read (V1);
     read (V2);
